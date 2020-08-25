@@ -1,6 +1,6 @@
-FROM nimmis/golang
+FROM golang:1.15.0
 
-MAINTAINER nimmis <kjell.havneskold@gmail.com>
+MAINTAINER bergey <bergey@simspace.com>
 
 # download and compile vcsim
 RUN go get -u github.com/vmware/govmomi/vcsim
