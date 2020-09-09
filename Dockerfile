@@ -11,4 +11,4 @@ EXPOSE 443
 
 # run start command
 ENTRYPOINT ["vcsim"]
-CMD [ "-l", "0.0.0.0:443", "-tlscert", "/root/cert.pem", "-tlskey", "/root/key.pem", "-trace" ]
+CMD [ "-l", "0.0.0.0:443", "-tlscert", "/go/cert.pem", "-tlskey", "/go/key.pem", "-trace" ]
